@@ -29,14 +29,6 @@ I'm a **GIS & Remote Sensing engineer** with a background in **Geophysics and Ge
 
 ---
 
-<!-- ============================================== -->
-<!--   INSAR FRINGE — research signature             -->
-<!-- ============================================== -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/theogatsios/theogatsios/main/assets/insar-fringe.svg" alt="Animated InSAR wrapped-phase interferogram"/>
-</p>
-
----
 
 <!-- ============================================== -->
 <!--   SNAKE — eats your contribution graph          -->

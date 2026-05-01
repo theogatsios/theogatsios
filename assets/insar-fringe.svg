@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Animated InSAR wrapped-phase interferogram showing concentric rainbow fringes representing ground deformation">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2f36" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="240" fill="#1e2228"/>
+  <rect width="800" height="240" fill="url(#grid)"/>
+
+  <!-- Concentric wrapped-phase fringes (drawn outermost first; smaller rings paint on top) -->
+  <g transform="translate(400 120)">
+    <ellipse rx="305" ry="110" fill="none" stroke-width="42">
+      <animate attributeName="stroke"
+        values="#2222ff;#1888ff;#11ddff;#11ff77;#ddff11;#ffaa11;#ff2233;#cc22dd;#2222ff"
+        dur="8s" begin="-7s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="265" ry="95" fill="none" stroke-width="42">
+      <animate attributeName="stroke"
+        values="#2222ff;#1888ff;#11ddff;#11ff77;#ddff11;#ffaa11;#ff2233;#cc22dd;#2222ff"
+        dur="8s" begin="-6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="225" ry="81" fill="none" stroke-width="42">
+      <animate attributeName="stroke"
+        values="#2222ff;#1888ff;#11ddff;#11ff77;#ddff11;#ffaa11;#ff2233;#cc22dd;#2222ff"
+        dur="8s" begin="-5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="185" ry="67" fill="none" stroke-width="42">
+      <animate attributeName="stroke"
+        values="#2222ff;#1888ff;#11ddff;#11ff77;#ddff11;#ffaa11;#ff2233;#cc22dd;#2222ff"
+        dur="8s" begin="-4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="145" ry="52" fill="none" stroke-width="42">
+      <animate attributeName="stroke"
+        values="#2222ff;#1888ff;#11ddff;#11ff77;#ddff11;#ffaa11;#ff2233;#cc22dd;#2222ff"
+        dur="8s" begin="-3s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="105" ry="38" fill="none" stroke-width="42">
+      <animate attributeName="stroke"
+        values="#2222ff;#1888ff;#11ddff;#11ff77;#ddff11;#ffaa11;#ff2233;#cc22dd;#2222ff"
+        dur="8s" begin="-2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="65" ry="23" fill="none" stroke-width="42">
+      <animate attributeName="stroke"
+        values="#2222ff;#1888ff;#11ddff;#11ff77;#ddff11;#ffaa11;#ff2233;#cc22dd;#2222ff"
+        dur="8s" begin="-1s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="25" ry="9" fill="none" stroke-width="42">
+      <animate attributeName="stroke"
+        values="#2222ff;#1888ff;#11ddff;#11ff77;#ddff11;#ffaa11;#ff2233;#cc22dd;#2222ff"
+        dur="8s" begin="0s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Letterbox bands for label readability -->
+  <rect x="0" y="0"   width="800" height="42" fill="#1e2228"/>
+  <rect x="0" y="200" width="800" height="40" fill="#1e2228"/>
+
+  <!-- Subtle separator lines -->
+  <line x1="0" y1="42"  x2="800" y2="42"  stroke="#6bb8c9" stroke-width="0.5" opacity="0.35"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#6bb8c9" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Corner reticles -->
+  <g stroke="#6bb8c9" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M 12 52 L 32 52 M 12 52 L 12 72"/>
+    <path d="M 788 52 L 768 52 M 788 52 L 788 72"/>
+    <path d="M 12 190 L 32 190 M 12 190 L 12 170"/>
+    <path d="M 788 190 L 768 190 M 788 190 L 788 170"/>
+  </g>
+
+  <!-- Header labels -->
+  <text x="20" y="28" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#6bb8c9" font-weight="700">InSAR · Wrapped Phase Interferogram</text>
+  <text x="780" y="28" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#6bb8c9" opacity="0.6">[ ground deformation ]</text>
+
+  <!-- Footer labels -->
+  <text x="20" y="225" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#6bb8c9" opacity="0.55">Sentinel-1 C-band  ·  1 fringe = 2.8 cm LOS displacement</text>
+  <text x="780" y="225" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#6bb8c9" opacity="0.55">λ = 5.6 cm  ·  ascending track</text>
+</svg>

@@ -10,7 +10,7 @@
 <!-- ============================================== -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6BB8C9&center=true&vCenter=true&width=650&lines=Mapping+Earth+by+day%2C+stars+by+night;GIS+%C2%B7+Remote+Sensing+%C2%B7+Geophysics+Geology;From+bedrock+to+deep+sky" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6BB8C9&center=true&vCenter=true&width=650&lines=Mapping+Earth+by+day%2C+stars+by+night;GIS+%C2%B7+Remote+Sensing+%C2%B7+Geophysics+%C2%B7+Geology;From+bedrock+to+deep+sky" alt="Typing SVG" />
   </a>
 </p>
 

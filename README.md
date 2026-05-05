@@ -18,7 +18,7 @@
 
 ### 👋 About me
 
-I'm a **GIS & Remote Sensing engineer** with a background in **Geophysics and Geology**. By day I work on geospatial infrastructure — PostGIS, GeoServer, GeoNetwork, QGIS, and PyQt6 tooling. My research interest is **SAR Interferometry (InSAR)** — measuring ground deformation from space. By night, when the sky is clear, I point a telescope or a DSLR at it. And when I get the chance, I trade the sky for the sea.
+I'm a **GIS & Remote Sensing engineer** with a background in **Geophysics and Geology**. By day I work on geospatial infrastructure — PostGIS, GeoServer, GeoNetwork, QGIS. My research interest is **SAR Interferometry (InSAR)** — measuring ground deformation from space. By night, when the sky is clear, I point a telescope or a DSLR at it. And when I get the chance, I trade the sky for the sea.
 
 - 🌍 Geospatial stack: PostGIS · GeoServer · GeoNetwork · QGIS · QFieldCloud
 - 🛠️ Build tools: Python · PyQt6 · Docker · SQL
